@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Default.aspx](./CS/WebApplication2/Default.aspx) (VB: [Default.aspx.vb](./VB/WebApplication2/Default.aspx.vb))
+* [Default.aspx](./CS/WebApplication2/Default.aspx) (VB: [Default.aspx](./VB/WebApplication2/Default.aspx))
 * [Default.aspx.cs](./CS/WebApplication2/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebApplication2/Default.aspx.vb))
 <!-- default file list end -->
 # DataView - How to display different gauges for different cells based upon some condition
