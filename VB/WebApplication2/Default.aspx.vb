@@ -10,6 +10,7 @@ Imports DevExpress.Web.ASPxGauges
 Imports DevExpress.Web.ASPxDataView
 Imports DevExpress.Web.ASPxGauges.Gauges.Digital
 Imports DevExpress.Web.ASPxGauges.Gauges.Circular
+Imports DevExpress.Web
 
 Namespace WebApplication2
 	Partial Public Class _Default
