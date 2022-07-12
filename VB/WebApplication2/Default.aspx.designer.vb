@@ -8,13 +8,11 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-
-Imports Microsoft.VisualBasic
-Imports System
 Namespace WebApplication2
 
 
 	Partial Public Class _Default
+		Inherits Page
 
 		''' <summary>
 		''' form1 control.
@@ -23,7 +21,7 @@ Namespace WebApplication2
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+		Protected form1 As System.Web.UI.HtmlControls.HtmlForm
 
 		''' <summary>
 		''' ASPxDataView1 control.
