@@ -1,5 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.Linq
 Imports System.Web
@@ -10,11 +9,11 @@ Imports DevExpress.Web.ASPxGauges
 Imports DevExpress.Web.ASPxDataView
 Imports DevExpress.Web.ASPxGauges.Gauges.Digital
 Imports DevExpress.Web.ASPxGauges.Gauges.Circular
-Imports DevExpress.Web
 
 Namespace WebApplication2
 	Partial Public Class _Default
 		Inherits System.Web.UI.Page
+
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 			Dim t As New DataTable()
 			t.Columns.Add("name")
@@ -29,7 +28,7 @@ Namespace WebApplication2
 			Dim c As ASPxGaugeControl = (TryCast(sender, ASPxGaugeControl))
 			Dim container As DataViewItemTemplateContainer = TryCast(c.NamingContainer, DataViewItemTemplateContainer)
 			Dim isDigital As Boolean = (TryCast(container.DataItem, DataRowView))("name").Equals("Circular")
-			c.Visible = isDigital AndAlso TypeOf c.Gauges(0) Is DigitalGauge OrElse (Not isDigital) AndAlso TypeOf c.Gauges(0) Is CircularGauge
+			c.Visible = isDigital AndAlso TypeOf c.Gauges(0) Is DigitalGauge OrElse Not isDigital AndAlso TypeOf c.Gauges(0) Is CircularGauge
 			c.Value = (TryCast(container.DataItem, DataRowView))("value").ToString()
 		End Sub
 	End Class
