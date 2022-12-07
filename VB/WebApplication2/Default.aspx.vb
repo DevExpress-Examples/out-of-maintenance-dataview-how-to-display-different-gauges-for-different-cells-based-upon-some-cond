@@ -6,7 +6,7 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.Data
 Imports DevExpress.Web.ASPxGauges
-Imports DevExpress.Web.ASPxDataView
+Imports DevExpress.Web
 Imports DevExpress.Web.ASPxGauges.Gauges.Digital
 Imports DevExpress.Web.ASPxGauges.Gauges.Circular
 

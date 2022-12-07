@@ -6,7 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
 using DevExpress.Web.ASPxGauges;
-using DevExpress.Web.ASPxDataView;
+using DevExpress.Web;
 using DevExpress.Web.ASPxGauges.Gauges.Digital;
 using DevExpress.Web.ASPxGauges.Gauges.Circular;
 
