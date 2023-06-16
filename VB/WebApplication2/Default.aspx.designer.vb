@@ -30,6 +30,6 @@ Namespace WebApplication2
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected ASPxDataView1 As Global.DevExpress.Web.ASPxDataView
+		Protected ASPxDataView1 As DevExpress.Web.ASPxDataView.ASPxDataView
 	End Class
 End Namespace
