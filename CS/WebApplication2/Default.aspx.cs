@@ -9,6 +9,7 @@ using DevExpress.Web.ASPxGauges;
 using DevExpress.Web;
 using DevExpress.Web.ASPxGauges.Gauges.Digital;
 using DevExpress.Web.ASPxGauges.Gauges.Circular;
+using DevExpress.Web.ASPxDataView;
 
 namespace WebApplication2
 {
